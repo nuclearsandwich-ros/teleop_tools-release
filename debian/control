@@ -1,0 +1,12 @@
+Source: ros-turbulent-mouse-teleop
+Section: misc
+Priority: extra
+Maintainer: Enrique Fernandez <enrique.fernandez.perdomo@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-ament-xmllint, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-mouse-teleop
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python-numpy, python-tk, ros-turbulent-geometry-msgs, ros-turbulent-rclpy, ros-turbulent-ros-workspace
+Description: A mouse teleop tool for holonomic mobile robots.
