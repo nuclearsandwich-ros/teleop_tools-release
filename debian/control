@@ -1,0 +1,12 @@
+Source: ros-turbulent-joy-teleop
+Section: misc
+Priority: extra
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-ament-xmllint, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-joy-teleop
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-turbulent-control-msgs, ros-turbulent-rclpy, ros-turbulent-sensor-msgs, ros-turbulent-teleop-tools-msgs, ros-turbulent-trajectory-msgs, ros-turbulent-ros-workspace
+Description: A (to be) generic joystick interface to control a robot
