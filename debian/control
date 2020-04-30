@@ -1,0 +1,12 @@
+Source: ros-verystable-key-teleop
+Section: misc
+Priority: optional
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-verystable-ament-copyright, ros-verystable-ament-flake8, ros-verystable-ament-pep257, ros-verystable-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-key-teleop
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-verystable-geometry-msgs, ros-verystable-rclpy, ros-verystable-ros-workspace
+Description: A text-based interface to send a robot movement commands.
