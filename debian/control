@@ -1,0 +1,12 @@
+Source: ros-verystable-mouse-teleop
+Section: misc
+Priority: optional
+Maintainer: Enrique Fernandez <enrique.fernandez.perdomo@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-copyright, ros-verystable-ament-flake8, ros-verystable-ament-pep257, ros-verystable-ament-xmllint, ros-verystable-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-mouse-teleop
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python-numpy, python-tk, ros-verystable-geometry-msgs, ros-verystable-rclpy, ros-verystable-ros-workspace
+Description: A mouse teleop tool for holonomic mobile robots.
