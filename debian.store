@@ -1,1 +1,1 @@
-{"trim": "", "base": "d4787b6", "trimbase": "", "parent": "debian/eloquent/teleop_tools_msgs", "previous": "4747b1f"}
+{"base": "582047f", "parent": "debian/verystable/teleop_tools_msgs", "previous": "b772fdf", "trim": "", "trimbase": ""}
